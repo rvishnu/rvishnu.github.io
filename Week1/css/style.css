@@ -1,5 +1,13 @@
-body{
-    color: white;
-    background-color : grey;
-    font-family: "Arial Black"
+body {
+    color: black;
+    background-color: Orange;
+    font-family: "Arial Black";
+}
+
+
+h1, h2, p{
+}
+
+a {
+    color: blue;
 }
