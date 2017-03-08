@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-weight: 500;
+    font-family: 'HelveticaNeue';
+}
+
+main{
+    margin:0;
+    overflow:hidden;
+    height: 100vh;
+}
+
+nav h1 {
+    margin-left: 5px;
+}
+
+nav aside {
+    align: left;
+}
+
+section {
+    width: 100%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-image: url("../images/BlueAngels.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#logo-large{
+    display: inline;
+    font-size: 2em;
+    font-weight: 600;
+    color:#e70e00;
+}
+
+#logo-small{
+    display: inline;
+    font-weight:0;
+    font-size: 3em;
+    font-family: 'Dosis' ,sans-serif;
+}
+
+nav{
+    display:inline;
+    float:right;
+}
+
+nav ul{
+    list-style:none;
+}
+
+
+nav ul li{
+    display:inline-block;
+}
+
+header {
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+nav ul li a{
+    color:#e70e00;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.content {
+    vertical-align: middle;
+    color: #FFFC21;
+}
+.outerDiv {
+    display: inline-flex;
+    height: 85vh;
+}
+
+.innerDiv {
+    margin: auto 5px;
+}
+
+button {
+    background-color: #e70e00; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
