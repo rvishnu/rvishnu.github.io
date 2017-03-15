@@ -1,0 +1,32 @@
+1. Home Page,
+    How to Implement IT
+        Employers as button
+
+    Products We Like... You may Like too
+
+        a. WebFlow
+        b. Appery.io
+        c. wireframe.cc
+
+    Just Start working on implementing
+
+    START NOW
+
+    Footer
+
+2. Idea List Page
+    List of all the ideas. One for Solved, One for Trending
+
+3. Idea Page
+
+5. Want a Solution. Contact Us to post and see various solutions
+
+6. Promote Product - Start a competition to make many solutions for your product.
+    Are you a low code, no code tool. Give developers your code to see what can they develop
+    Contact US
+    Compete... Solve the problems using these technologies and get money
+
+
+7. Product List
+
+8. Product Detail Page + Projects to Work On

@@ -1,21 +1,8 @@
 body {
     margin: 0;
     font-weight: 500;
+    color: #16357d;
     font-family: 'HelveticaNeue';
-}
-
-main{
-    margin:0;
-    overflow:hidden;
-    height: 100vh;
-}
-
-nav h1 {
-    margin-left: 5px;
-}
-
-nav aside {
-    align: left;
 }
 
 section {
@@ -23,66 +10,57 @@ section {
     display: table;
     margin: 0;
     max-width: none;
+}
+
+#home{
     background-image: url("../images/BlueAngels.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
 
-#logo-large{
-    display: inline;
-    font-size: 2em;
-    font-weight: 600;
-    color:#e70e00;
-}
-
-#logo-small{
-    display: inline;
-    font-weight:0;
-    font-size: 3em;
-    font-family: 'Dosis' ,sans-serif;
-}
-
-nav{
-    display:inline;
-    float:right;
-}
-
-nav ul{
-    list-style:none;
-}
-
-
-nav ul li{
-    display:inline-block;
-}
-
-header {
-    margin:0;
-    padding:0;
+ul {
     width: 100%;
+    display: table;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
 }
 
-nav ul li a{
-    color:#e70e00;
-    font-weight: 600;
-    margin-right: 5px;
+ul li {
+    display: table-cell;
+    width: auto;
+    text-align: center;
 }
 
-.content {
-    vertical-align: middle;
-    color: #FFFC21;
-}
-.outerDiv {
-    display: inline-flex;
-    height: 85vh;
+#whySolution {
+    height: 200px;
+    width: 200px;
+    height: auto;
 }
 
-.innerDiv {
-    margin: auto 5px;
+#sectionHeading {
+    size: 30px;
 }
 
+#elem-to-center {
+    height: 50%; /* Set your own height: percents, ems, whatever! */
+    width: 50%; /* Set your own width: percents, ems, whatever! */
+    overflow: auto; /* Recommended in case content is larger than the container */
+    margin: auto; /* Center the item vertically & horizontally */
+    position: absolute; /* Break it out of the regular flow */
+  /*  top: 0; left: 0; bottom: 0; right: 0; /* Set the bounds in which to center it, relative to its parent/container */
+}
+
+#implementSolutions{
+    height: 90vh;
+}
+
+
+
+
+/*
 button {
-    background-color: #e70e00; /* Green */
+    background-color: #e70e00;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -90,5 +68,5 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
+}*/
 
