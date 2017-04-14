@@ -14,12 +14,28 @@ body{
     font-family: 'Droid Sans', sans-serif;
 }
 
-section {
-    \: 100%;
-    padding: 4em 0;
+p {
+    font-weight: bold;
+    padding-left :.25em;
+    font-size:1.35em;
+    padding-bottom:.75em;
+    color: #044703;
 }
 
-nav{
+nav a{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    padding: 1em;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .7em;
+}
+
+section {
+    width: 100%;
 }
 
 h1, h2 {
@@ -31,48 +47,47 @@ h1{
     font-weight: bolder;
     font-size:3.35em;
     text-align:center;
-    margin:2em 0 .5em;
-}
-
-header h1{
-    margin:3.85em 0 .5em;
-}
-
-h2 {
-    padding-left: 10px;
+    margin:3em 0 .5em;
 }
 
 h3 {
     font-size: 1.75em;
 }
 
-
-p {
-    font-weight: bold;
-    padding-left :.25em;
-    font-size:1.35em;
-    padding-bottom:.5em;
-    color: #044703;
+h2 {
+    font-size: 3em;
+    padding: 1em;
 }
 
-.cta{
-    background-color: #e77408;
-    border: none;
-    color: white;
-    padding: 1em 2em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1em;
+h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+h6{
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+img.resize{
+    max-width:50%;
+    max-height:50%;
 }
 
 a{
-    color: #16357d;
+    color: #222;
 }
 
-header{
-    /* width: 1200px; */
-    margin: auto;
+footer {
+    background-color: #383838;
+    padding: 20px;
+    text-align: center;
 }
 
 ul {
@@ -89,58 +104,15 @@ ul li {
     text-align: center;
 }
 
-footer {
-    background-color: #cccccc;
-    padding: 20px;
+.cta{
+    background-color: #e77408;
+    border: none;
+    color: white;
+    padding: 1em 2em;
     text-align: center;
-}
-
-.whyWork {
-    /* float: left; */
-    /* width: 33.33%; */
-    margin: 2em auto;
-    /* height: 10em; */
-    /* display: inline-block; */
-}
-
-img.resize{
-    max-width:50%;
-    max-height:50%;
-}
-
-
-
-
-#StartSolveButton{
-    border: blue;
-    padding: 1.5em;
-}
-
-#logoName{
-    text-align: left;
-    display:inline-block;
-    font-size:  1.3em;
-}
-
-#home{
-    background-image: url("../images/ShowOffIndex.jpeg");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 95vh;
-}
-
-#implementSolutions{
-    background-image: url("../images/woman-hand-desk-office.jpg");
-    background-size: cover;
-    height: 90vh;
-}
-
-.logoDiv {
-    width:100%;
-    font-size: 1.2em;
-    margin: .2em;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
 }
 
 .logo {
@@ -152,41 +124,82 @@ img.resize{
     float:right;
 }
 
-nav a{
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin: 0 20px;
-    padding: 1em;
-    color:black;
-    text-decoration: none;
-    display: inline-block;
-    font-size: .7em;
-}
-
-#whyWorkOnProvidingSolution{
-}
-
-#ideaHeading {
-    margin:1em 0 .5em;
+.whyWork {
+    float: left;
+    width: 33.33%;
+    margin: 2em auto;
+    height: 12em;
 }
 
 .treadingIdeas {
-    background-image: url("../images/ElevatorButtons.jpg");
-    padding: 7em 1em 7em 1em;
-    margin: .5em 1em 3em 1em;
+    width: 45%;
+    float: left;
+    background-image: url("../images/elevators.jpg");
+    padding: 11em 1em 11em 1em;
+    margin: .5em 1em 6em 2.5em;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .rightGuy {
-    background-image: url("../images/man-1246028_1920.jpg");
-    padding: 7em 1em 7em 1em;
-    margin: 3em 1em .5em 1em;
+    width: 45%;
+    float: right;
+    background-image: url("../images/pexels-photo-200379-rightguy.jpeg");
+    padding: 11em 1em 11em 1em;
+    margin: 6em 2.5em .5em 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .paidMagazines{
-    background-image: url("../images/NewsPapers.jpg");
-    padding: 7em 1em 7em 1em;
-    margin: 3em 1em .5em 1em;
+    width: 45%;
+    float: left;
+    background-image: url("../images/pexels-photo_PaidMagazines.jpg");
+    padding: 11em 1em 11em 1em;
+    margin: .5em 1em 6em 2.5em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homeOffice{
+    width: 45%;
+    float: right;
+    background-image: url("../images/pexels-photo-263209-homeoffice.jpeg");
+    padding: 11em 1em 11em 1em;
+    margin: 6em 2.5em .5em 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seeMore{
+    display: block;
+    font-size: 1em;
+    padding:2em;
+}
+
+.productsWeLove{
+    height: 100%;
+    float: left;
+    width: 30.33%;
+    margin: 1em;
+    padding: 35px 40px;
+    border-radius: 3px;
+    background-color: #f7f8f9;
+}
+
+#home{
+    background-image: url("../images/ShowOffIndex.jpeg");
+    height: 95vh;
+    padding: 2em 0;
+}
+
+#implementSolutions{
+    background-image: url("../images/woman-hand-desk-office.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+#stillThinkingDiv{
+    float: right;
+    padding: 10em 6.5em 1em 1em;
 }
