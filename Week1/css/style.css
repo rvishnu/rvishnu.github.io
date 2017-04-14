@@ -1,13 +1,30 @@
-body {
-    color: black;
-    background-color: Orange;
-    font-family: "Arial Black";
+h1 {
+    font-family: "Times New Roman" sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgba(133, 56, 9, 0.71);
+
 }
 
-
-h1, h2, p{
+h3, p {
+    font-family: "Courier New" sans-serif;
+    font-size: 21px;
 }
 
-a {
-    color: blue;
+body{
+    text-align: center;
+    background-color: #f6faff;
+
+}
+
+#secondHeadline {
+    color: red;
+    font-family: Verdana;
+    text-decoration: underline;
+}
+
+.importantParagraph{
+    font-size:  20px;
 }
