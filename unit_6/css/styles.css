@@ -26,7 +26,7 @@ nav a{
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    margin: 0 20px;
+    margin: 0 1em;
     padding: 1em;
     color:black;
     text-decoration: none;
@@ -100,25 +100,12 @@ footer  a{
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    padding: 0 20px;
+    padding: 0 1em;
     padding: 1em;
     color:black;
     text-decoration: none;
     display: inline-block;
     font-size: .7em;
-}
-
-ul {
-    width: 100%;
-    display: table;
-    list-style-type: none;
-    padding: 10px;
-}
-
-ul li {
-    display: table-cell;
-    width: 30%;
-    text-align: center;
 }
 
 .cta{
@@ -140,36 +127,40 @@ ul li {
 }
 
 nav {
-    padding: 20px;
+    padding: 1.2em;
     float:right;
 }
 
 .whyWork {
     float: left;
-    width: 33.33%;
+    width: 32.10%;
     height: 11em;
-    padding: 2em 1em 1.5em;
+    padding: 2em 2% 1.5em;
 
 }
 
 .rightSideIdea {
     width: 45%;
     float: right;
-    padding: 11em 1em 11em 1em;
-    margin: 6em 2.5em 2em 1em;
+    padding: 11em 0 11em 0;
+    margin: 6em 2% 2em .5%;
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
+    border-color: blue;
+    border-width: thick;
 }
 
 .leftSideIdea {
     width: 45%;
     float: left;
     display: block;
-    padding: 11em 1em 11em 1em;
-    margin: 2em 1em 6em 2.5em;
+    padding: 11em 0 11em 0;
+    margin: 2em .5% 6em 2%;
     background-size: cover;
     background-repeat: no-repeat;
+    border-color: #484848;
+
 
 }
 
@@ -197,16 +188,17 @@ nav {
 
 .productsWeLove{
     float: left;
-    width: 27.33%;
-    margin: 1em;
+    width: 29.33%;
+    height: 12em;
+    padding: 1em 0 0 0;
+    margin: 2%;
     background-color: #f7f8f9;
     border: 1px black solid;
-    padding: 2em;
-    margin:2em;
 }
 
 #home{
     background-image: url("../images/ShowOffIndex.jpeg");
+    width:100%;
     height: 95vh;
     padding: 2em 0;
 }
@@ -220,7 +212,7 @@ nav {
 
 #stillThinkingDiv{
     float: right;
-    padding: 9em 6.5em 1em 1em;
+    padding: 10em 12% 1em 2%;
 }
 
 .clearfix:after {
