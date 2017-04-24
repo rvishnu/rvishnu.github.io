@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Merriweather:400,700');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-size: 16px; /*1em = 16px*/
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Droid Sans', sans-serif;
+    color: #222;
+}
+
+p {
+    font-weight: bold;
+    /* padding-left :.25em; */
+    font-size:1.35em;
+    /* padding-bottom:.75em; */
+    color: #044703;
+}
+
+nav {
+    padding: 1.2em;
+    float:right;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 1em;
+    padding: 1em;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .7em;
+}
+
+a{
+    color: inherit;
+}
+
+section {
+    width: 100%;
+}
+
+h1, h2 {
+    color: #670500;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-weight: bolder;
+    font-size:3.35em;
+    text-align:center;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+
+h4{
+    font-size: 1.5em;
+}
+
+h5{
+    padding: .75em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+h6{
+    padding: .75em;
+    font-size: .85em;
+    font-weight: 400;
+}
+
+img.resize{
+    height: 5em;
+}
+
+footer {
+   background-color: #484848;
+    padding: .7em;
+}
+
+footer  a{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 1em;
+    padding: 1em;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .7em;
+}
+
+.cta{
+    background-color: #e77408;
+    border: none;
+    color: white;
+    padding: .7em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-top: 1%;
+}
+
+.logo {
+    float:left;
+    color: #fff;
+    padding: .5em;
+    font-size:1.7em;
+}
+
+.whyWork {
+    float: left;
+    width: 33.33%;
+    /* height: 11em; */
+    padding: 2.5% 1%;
+}
+
+.rightSideIdea {
+    width: 45%;
+    float: right;
+    padding: 15% 0;
+    margin: 6em 3% 2em 2%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: blue;
+    border-width: thick;
+    color: inherit;
+    text-decoration: none;
+}
+
+.leftSideIdea {
+    width: 45%;
+    float: left;
+    display: block;
+    padding: 15% 0;
+    margin: 2em 2% 6em 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: #484848;
+    color: inherit;
+    text-decoration: none;
+}
+
+.treadingIdeas {
+    background-image: url("../images/elevators.jpg");
+}
+
+.rightGuy {
+    background-image: url("../images/pexels-photo-200379-rightguy.jpeg");
+}
+
+.paidMagazines{
+    background-image: url("../images/pexels-photo_PaidMagazines.jpg");
+}
+
+.homeOffice{
+    background-image: url("../images/pexels-photo-263209-homeoffice.jpeg");
+}
+
+.seeMore{
+    font-size: 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    /* color: #e77408; */
+}
+
+.productsWeLove{
+    float: left;
+    width: 30.33%;
+    min-height: 12em;
+    padding: 1em 0 0 0;
+    margin: 1.5%;
+    background-color: #f7f8f9;
+    border: 1px black solid;
+}
+
+#home{
+    background-image: url("../images/ShowOffIndex.jpeg");
+    width:100%;
+    height: 95vh;
+    padding: 2em 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#implementSolutions{
+    margin: 2em 0 0 0;
+    background-image: url("../images/woman-hand-desk-office.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+#stillThinkingDiv{
+    float: right;
+    padding: 15% 12% 1% 2%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.wrapper {
+    max-width: 80em;
+    margin:auto;
+}
+
+#HomePageCenterText {
+    margin: 15% 0em 0em 0em;
+}
+
+#homePageTitle{
+    margin: 0 0 1% 0;
+}
+
+.heading2Padding{
+    padding: 1em 0em .25em;
+}
+
+.heading4Padding{
+    padding: 0 0 1em 0;
+}
+
+@media screen and (max-width: 975px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    body {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    body {
+        font-size: 12px;
+    }
+
+    nav a{
+
+        font-size: .8em;
+    }
+
+    h6{
+        font-size: 1em;
+    }
+
+    h5{
+        font-size: 1.1em;
+        letter-spacing: .3px;
+    }
+
+
+}
+
+@media screen and (max-width: 670px) {
+    body {
+        font-size: 10px;
+    }
+
+    p {
+        font-size:1.5em;
+        color: #044703;
+    }
+
+    h6{
+        font-size: 1.2em;
+    }
+
+    h5{
+        font-size: 1.3em;
+        letter-spacing: .3px;
+    }
+
+    .cta{
+        padding: .8em 1.5em;
+        font-size: 1.3em;
+        margin-top: 1%;
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+    p{
+        display: none;
+    }
+
+    .removeFor2Column{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px){
+
+    body {
+        font-size: 10px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    h2 {
+        font-size: 2.1em;
+    }
+
+    .leftSideIdea{
+        float: none;
+        width:auto;
+        min-height: 25em;
+        padding:25%
+    }
+
+    .rightSideIdea{
+        float:none;
+        width:auto;
+        min-height: 25em;
+        padding:25%
+    }
+
+    .whyWork {
+        float: none;
+        width:auto;
+    }
+
+    .productsWeLove{
+        float: none;
+        width:auto;
+    }
+
+
+
+    .logo{
+        font-size:2em;
+    }
+
+    #HomePageCenterText{
+        margin: 25% 0 0 0;
+    }
+
+    #stillThinkingDiv{
+        padding: 20% 3% 1% 2%;
+    }
+
+
+    #implementSolutions{
+        height: 60vh;
+    }
+}
