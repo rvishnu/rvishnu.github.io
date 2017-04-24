@@ -243,15 +243,23 @@ footer  a{
     padding: 0 0 1em 0;
 }
 
+
 @media screen and (max-width: 975px) {
     body {
         font-size: 14px;
     }
-}
 
-@media screen and (max-width: 975px) {
-    body {
-        font-size: 13px;
+
+    #HomePageCenterText {
+        margin: 25% 0em 0em 0em;
+    }
+
+    #home {
+        height: 70vh;
+    }
+
+    #implementSolutions{
+        height: 60vh;
     }
 }
 
@@ -353,25 +361,9 @@ footer  a{
         width:auto;
     }
 
-
-
     .logo{
         font-size:2em;
     }
 
-    #HomePageCenterText{
-        margin: 25% 0 0 0;
-    }
 
-    #stillThinkingDiv{
-        padding: 20% 3% 1% 2%;
-    }
-
-    #home{
-        height:70vh;
-    }
-
-    #implementSolutions{
-        height: 60vh;
-    }
 }
