@@ -139,8 +139,6 @@ footer  a{
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
-    border-color: blue;
-    border-width: thick;
     color: inherit;
     text-decoration: none;
 }
@@ -200,6 +198,9 @@ footer  a{
     padding: 2em 0;
     background-size: cover;
     background-repeat: no-repeat;
+    max-height: 1000px;
+    z-index:-1;
+    position: relative;
 }
 
 #implementSolutions{
@@ -228,7 +229,7 @@ footer  a{
 }
 
 #HomePageCenterText {
-    margin: 15% 0em 0em 0em;
+    margin: 12em;
 }
 
 #homePageTitle{
@@ -263,6 +264,17 @@ footer  a{
     }
 }
 
+@media screen and (max-width: 775px) {
+    .rightSideIdea {
+        height: 15em;
+    }
+
+    .leftSideIdea{
+        height: 15em;
+    }
+
+}
+
 @media screen and (max-width: 725px) {
     body {
         font-size: 12px;
@@ -281,8 +293,6 @@ footer  a{
         font-size: 1.1em;
         letter-spacing: .3px;
     }
-
-
 }
 
 @media screen and (max-width: 670px) {
@@ -335,6 +345,14 @@ footer  a{
 
     h2 {
         font-size: 2.1em;
+    }
+
+    .rightSideIdea {
+        height: 100%;
+    }
+
+    .leftSideIdea{
+        height: 100%;
     }
 
     .leftSideIdea{
